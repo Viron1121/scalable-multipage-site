@@ -5,8 +5,11 @@ A simple multi-page website demonstrating **clean structure, scalability, and re
 Includes a homepage (`index.html`) and a secondary page (`about.html`).
 
 ## How to Run
-- **Locally:** Open any page in `src/pages/` in a browser, or use VS Code Live Server.  
+- **Locally:** Use a local server such as **VS Code Live Server** to view the site.  
+  Open the `src/pages/index.html` file using Live Server to see the header, footer, and full layout correctly.  
 - **Optional Deployment:** Can be hosted on GitHub Pages, Netlify, or Vercel.
+
+> Note: Header and footer are loaded dynamically using JavaScript. They require a local server or deployment to be visible.
 
 ## Adding New Pages
 1. Add a new `.html` file in `src/pages/`.  
